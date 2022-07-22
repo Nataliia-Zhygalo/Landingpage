@@ -1,0 +1,324 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+title {
+  background: #fff;
+  padding: 0 100px;
+}
+.top-section{
+  background: #fff;
+  width: 1440px;
+  height: 554px;
+}
+.title {
+  text-align: center;
+  color: #9db0d1;
+  font-family: "Arapey";
+  font-size: 60px;
+  line-height: 66px;
+  font-style: normal;
+  margin: 100px 0 50px 0;
+  }
+.sub-title {
+  color: #000;
+  width: 1024px;
+  height: 48px;
+  margin: 0 auto 50px auto;
+  text-align: center; 
+  font-family: "Verdana";
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.button-1 {
+  display: block;
+  margin: 0 auto 50px  auto;
+  border-radius: 10px;
+  padding: 24px 50px;
+  border: 0;
+  background-color: #ebac87;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Arapey";
+  line-height: 32px;
+  text-transform: uppercase;
+}
+button-1:hover{
+  border: 2px solid;
+  color: #ebac87;
+  background: #fff; 
+}
+.navigation{
+  justify-content: center;
+  display: flex;
+}
+.option {
+  align-items: center;
+  display: flex; 
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 25px 0 25px;
+  color: #000;
+  font-family: "Verdana"; 
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+}
+.check-mark {
+  width: 60px;
+  height: 60px;
+  background: #9DB0D1;
+  color: #fff;
+  display: block;
+  margin: 0 15px 0 0;
+  padding: 17px 15px 18px 15px;
+  border-radius: 50%;  
+}
+  .caption {
+  text-align: center;
+  background: url(https://i.ibb.co/X8rPkRW/Bg-cloud.png) repeat-x top / auto 200px,
+    linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+padding: 252px 0 50px 0;
+font-family: 'Arapey';
+font-style: normal;
+font-size: 40px;
+line-height: 44px;
+}
+.mid-section{
+  background: #87c6eb;
+  width: 1440px;
+}
+.mid-container {
+  display: flex;
+  margin: 0 auto;
+  background: #87c6eb;
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.card {
+  width: 350px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 0 35px 0;
+  }
+.Circle-1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(235, 172, 135, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.Circle-2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(235, 172, 135, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+.Circle-3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background:  #ebac87;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.card-img {
+  width: 310px;
+  height: 310px;
+  background-color: #EBAC87;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 10 0 20px;
+}
+.img-caption {
+  margin:  20px 50px 0 0;
+  font-family: "Verdana";
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+.img-caption strong {
+  font-weight: bold;
+}
+
+.bottom-section {
+ width: 1440px;
+ display: flex;
+ background: #87C6EB;
+ justify-content: space-between; 
+ margin: 0 auto;    
+}
+.bottom-container {
+ width: 1200px;
+ background: url(https://i.ibb.co/MNP8KDv/Mount-Grey.png)
+ bottom right / auto 475px no-repeat;
+ margin: 0 auto;   
+}
+  .heading {
+  margin: 75px 0 50px 0;
+  font-family: "Arapey";
+  font-size: 40px;
+  line-height: 44px;
+  width: 600px;
+  color: #fff
+}
+.sub-heading {
+  width: 600px;
+  flex-grow: 0;
+  margin: 50px 0 50px 0;
+  font-family: "Verdana";
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #000;
+ 
+}
+ .row {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0 50px 0;
+}
+.button-2 {
+  justify-content: flex-start;
+  margin: 0;
+  border-radius: 10px;
+  padding: 24px 50px;
+  width: 257px;
+  border: 0;
+  background-color: #fff;
+  color: #ebac87;
+  font-size: 30px;
+  font-family: "Arapey";
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+button-1:hover{
+  border: 2px solid;
+  color: #fff;
+  background: #ebac87;
+}
+.Circle-4 {
+  width: 80px;
+  height: 80px;
+  margin: 0 0 10px 0;
+  background: #ebac87;
+  color: #fff;
+  font-family: "Verdana";
+  font-size: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+}
+.footer-section {
+  width: 1200px;
+  background: #fff;
+  margin: 0 auto;
+} 
+.button-3 {
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 24px 50px;
+  margin: 0;
+  border: 0;
+  background-color: #ebac87;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Arapey";
+  line-height: 32px;
+  text-transform: uppercase;
+}
+button-1:hover {
+  border: 2px solid;
+  color: #ebac87;
+  background: #fff; 
+}
+.social-icon a{
+  justify-comntent: center;
+  margin: 18px;
+  }
